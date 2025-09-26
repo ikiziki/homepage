@@ -2,6 +2,8 @@
 # Sync local repo with origin
 
 REPO_DIR="/opt/homepage/config"
+SCRIPT_NAME="fetch.sh"
+LINK_PATH="/usr/local/bin/fetch"
 
 echo ">>> Changing directory to $REPO_DIR"
 cd "$REPO_DIR" || { echo "Repo not found"; exit 1; }
@@ -15,7 +17,10 @@ git reset --hard origin/main
 echo ">>> Cleaning untracked files and directories..."
 git clean -fd
 
-echo ">>> Making fetch.sh executable..."
-chmod +x "$REPO_DIR/fetch.sh"
+echo ">>> Making $SCRIPT_NAME executable..."
+chmod +x "$REPO_DIR/$SCRIPT_NAME"
 
-echo ">>> Sync complete."
+echo ">>> Creating symlink at $LINK_PATH"
+ln -sf "$REPO_DIR/$SCRIPT_NAME" "$LINK_PATH"
+
+echo ">>> Sync complete. You can now run 'fetch' from anywhere."
