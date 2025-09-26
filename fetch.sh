@@ -15,4 +15,7 @@ git reset --hard origin/main
 echo ">>> Cleaning untracked files and directories..."
 git clean -fd
 
+echo ">>> Making fetch.sh executable..."
+chmod +x "$REPO_DIR/fetch.sh"
+
 echo ">>> Sync complete."
