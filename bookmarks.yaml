@@ -2,10 +2,13 @@
 # For configuration options and examples, please see:
 # https://gethomepage.dev/latest/configs/bookmarks
 
-- Developer:
-    - Github:
-        - abbr: GH
-          href: https://github.com/
+- Nodes:
+    - PVE1:
+        - abbr: PVE1
+          href: http://10.1.1.200/
+    - PVE2:
+        - abbr: PVE2
+          href: http://10.1.1.210/
 
 - Social:
     - Reddit:
