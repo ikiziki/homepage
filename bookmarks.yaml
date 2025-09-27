@@ -10,10 +10,13 @@
         - abbr: PVE2
           href: http://10.1.1.210:8006/
 
-- Social:
-    - Reddit:
-        - abbr: RE
-          href: https://reddit.com/
+- Network:
+    - MikroTik:
+        - abbr: MT
+          href: http://10.1.1.100/
+    - Access Point:
+        - abbr: AP
+          href: http://10.1.1.101/
 
 - Entertainment:
     - YouTube:
