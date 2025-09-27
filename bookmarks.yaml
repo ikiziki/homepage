@@ -19,7 +19,7 @@
           href: http://10.1.1.101/
     - PiHole:
         - abbr: PH
-          href: http:10.1.1.105/admin/
+          href: http://10.1.1.105/admin/
 
 - Entertainment:
     - YouTube:
