@@ -4,10 +4,10 @@
 
 - Nodes:
     - PVE1:
-        - abbr: PVE1
+        - abbr: ProxMox Node 1
           href: http://10.1.1.200:8006/
     - PVE2:
-        - abbr: PVE2
+        - abbr: ProxMox Node 2
           href: http://10.1.1.210:8006/
 
 - Social:
