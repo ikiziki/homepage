@@ -4,8 +4,8 @@
 
 - Monitors:
     - Portainer:
-        href: http://localhost/
-        description: Homepage is awesome
+        href: https://10.1.1.120:9443/
+        description: Docker Management
 
 - My Second Group:
     - My Second Service:
