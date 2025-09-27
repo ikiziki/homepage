@@ -3,11 +3,11 @@
 # https://gethomepage.dev/latest/configs/bookmarks
 
 - Nodes:
-    - PVE1:
-        - abbr: ProxMox Node 1
+    - ProxMox Node 1:
+        - abbr: PVE1
           href: http://10.1.1.200:8006/
-    - PVE2:
-        - abbr: ProxMox Node 2
+    - ProxMox Node 2:
+        - abbr: PVE2
           href: http://10.1.1.210:8006/
 
 - Social:
