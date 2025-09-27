@@ -17,6 +17,7 @@
     - Access Point:
         - abbr: AP
           href: http://10.1.1.101/
+          target: _blank
     - PiHole:
         - abbr: PH
           href: http://10.1.1.105/admin/
